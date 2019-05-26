@@ -1,0 +1,164 @@
+.page1{ 
+    background: url('image/9.jpg') no-repeat;
+    background-size: cover;
+      }
+.page1 img{ 
+    position: absolute;
+}
+.page1 img:nth-of-type(1){ 
+    width: 4rem;
+    height: 4rem;
+    left: 2.3rem;
+    top: .5rem;
+}
+.page1 img:nth-of-type(2){ 
+    width: 4rem;
+    height: 4rem;
+    left: .4rem;
+    bottom: 1.6rem;
+}  
+.page1 p{
+    color: blueviolet;
+    position:absolute;
+    font-size:1rem;
+    top:4.7rem;
+}
+.page2{ 
+    background: url('image/10.jpg') no-repeat;
+    background-size: cover;
+      }
+.page2 img:nth-of-type(1){
+    width: 3rem;
+    height: 6rem;
+    float: left;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+}
+.page2 p:nth-of-type(1){
+    color: darkblue;
+    position: absolute;
+    top: .6rem;
+    left: 3.7rem;
+    font-size: .3rem;
+    line-height: .34rem;
+    text-indent:2em;
+}
+.page2 img:nth-of-type(2){
+    width: 3rem;
+    height: 6rem;
+    float: right;
+    position: absolute;
+    bottom: .4rem;
+    right: .5rem;
+    
+}
+.page2 p:nth-of-type(2){
+    color: darkblue;
+    position: absolute;
+    bottom: 1.2rem;
+    right: 3.4rem;
+    font-size: .3rem;
+    line-height:.34rem;
+    text-indent: 2em;
+}
+.page3{ 
+    background: url('image/11.jpg') no-repeat;
+    background-size: cover;
+      }
+.page3 img:nth-of-type(1){
+    width: 8rem;
+    height: 4rem;
+}
+.page3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    font-size: 1rem;
+    letter-spacing: .32rem;
+    position: absolute;
+    right: 1.1rem;
+    top: 4.2rem;
+}
+.page3 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: .4rem;
+    line-height: .4rem;
+    text-indent: 2em;
+    position: absolute;
+    bottom: .8rem; 
+}
+.page4{ 
+    background: url('image/9.jpg') no-repeat;
+    background-size: cover;
+      }
+.page4 p:nth-of-type(1){
+    color: red;
+    font-size:1.6rem;
+    letter-spacing:.6rem;
+    font-weight:bold;
+    position:abosolute;
+    right:1rem;
+    top:2rem;
+}
+.page4 p:nth-of-type(2){
+    color:red;
+    font-size:1.6rem;
+    letter-spacing:.6rem;
+    font-weight:bold;
+    position:abosolute;
+    bottom:2rem;
+    left:1rem;
+    }
+.page4 img:nth-of-type(1){
+    width: 4rem;
+    height: 4rem;
+    float: right;
+    position: absolute;
+    top: 1.5rem;
+    left: .1rem;
+}
+.page4 img:nth-of-type(2){
+    width: 3rem;
+    height: 6rem;
+    float: right;
+    position: absolute;
+    top: .8rem;
+    right: .3rem;
+}
+.page4 img:nth-of-type(3){
+    width: 6rem;
+    height: 4rem;
+    float: right;
+    position: absolute;
+    bottom: 1.5rem;
+    left: .6rem;
+}
+.page5{
+    background: url('image/25.jpg') no-repeat;
+    background-size: cover;
+}
+
+.page5 p:nth-of-type(1){
+    color: red;
+    font-size: 1.3rem;
+    letter-spacing: .8rem;
+    position: absolute;
+    left: 1rem;
+    top: 2.5rem;
+}
+.page5 img {
+    width: 4.2rem;
+    height: 4rem;
+    position: absolute;
+    left: 1.8rem;
+    top: 4.8rem;
+}
+.page5 p:nth-of-type(2){
+    color: red;
+    font-size: 1.3rem;
+    letter-spacing: .8rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 2.5rem;
+}
